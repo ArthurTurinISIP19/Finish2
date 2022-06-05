@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Finish2</string>
+    <string name="app_name">TyurinDemo1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">E-mail</string>
+    <string name="deliver_mail_ru">delivery@mail.ru</string>
+    <string name="password">Password</string>
+    <string name="password1">*********</string>
+    <string name="password2">Hello blank fragment</string>
+    <string name="full_name">Full name</string>
+    <string name="name1">Olivie Berlusco</string>
+    <string name="name2">Hello blank fragment</string>
+    <string name="Phone">Phone number</string>
+    <string name="number">+7 (963) 444-12-23</string>
+    <string name="register_now">Register Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_password">Forgot password?</string>
+
+
+
 </resources>

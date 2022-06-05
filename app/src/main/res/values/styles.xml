@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrangeMain" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#FA4A0C</item>
+    </style>
+
+</resources>
