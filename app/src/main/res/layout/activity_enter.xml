@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterActivity"
+    android:backgroundTintMode="multiply"
+    android:background="@drawable/main_bg"
+    android:backgroundTint="#CB8F7F00">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/smart_logo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smart Home"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:alpha="0.8"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/card_bg"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/etMail"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:hint="E-mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:id="@+id/etPass"
+                    android:backgroundTint="@color/white"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEnter"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Enter Your House"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style"
+                android:textAllCaps="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnReg"
+                android:backgroundTint="#2A2A37"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="New Resident"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
